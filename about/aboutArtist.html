@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Jill Coulsell</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('../Gallery_Home_Page/imgs/background.jpg'); /* Dynamic background image */
+            background-size: cover;
+            background-position: center;
+            filter: blur(8px); /* Apply blur effect */
+            z-index: -1; /* Ensure it stays behind the content */
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #222;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .section p, .section ul {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .section ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        footer a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>About Jill Coulsell</h1>
+        </header>
+
+        <!-- Biography Section -->
+        <div class="section">
+            <h2>Biography</h2>
+            <p>Jill has been painting from the early 1980’s and has since won many awards in that time. During that time‚ the Herald Sun outdoor art show which was held annually‚ saw many of her Melbourne Tram paintings going overseas‚ especially to U.K‚ U.S.A, and China.</p>
+            <p>Likewise, her seascapes and many of her Lighthouse scenes have won her many awards‚ and have been sought by galleries. Jill enjoys her painting‚ and prefers to create movement in her pictures giving them the feeling of being on the spot. One could almost feel the sea spray!</p>
+            <p>Jill‚ has a wide interest in painting pictures that challenge her‚ and her versatility in any subjects proves itself.</p>
+        </div>
+
+        <!-- Exhibitions Section -->
+        <div class="section">
+            <h2>Exhibitions</h2>
+            <ul>
+                <li>Mornington Art Exhibition 2015 - 3 items</li>
+                <li>Bayside Art Show 2014 - 3 items</li>
+                <li>Camberwell Art Show 2014 - 4 items</li>
+                <li>Mornington Art Exhibition 2014 - 3 items</li>
+                <li>Hobsons Bay Art Show 2013 - 2 items</li>
+                <li>Camberwell Art Show 2013 - 4 items</li>
+                <li>Mornington Art Exhibition 2013 - 2 items</li>
+                <li>Hobsons Bay Art Show 2012 - 2 items</li>
+                <li>Bayside Art Show 2012 - 5 items</li>
+                <li>Camberwell Rotary Art Show 2012 - 5 items</li>
+            </ul>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Chris Canning (1978):</strong> 8 weeks of drawing and sketching still life in the studio and on location in the Dandenong Ranges.</li>
+                <li><strong>John Spink (1980s):</strong> Approximately 5 years of oil painting focusing on landscapes and seascapes.</li>
+                <li><strong>Alan Martin (1990s):</strong> Summer workshops at various locations while developing her own painting style in her home studio.</li>
+                <li><strong>Kevin Boucher (2001):</strong> Joined Kevin's Art Group, focusing on acrylics and oils, further developing landscape/seascape painting techniques for studio and location.</li>
+                <li><strong>Michael Goff:</strong> Workshops in studio and on location, including Thornton‚ Monsalvat, and Mordialloc Creek, providing valuable learning experiences.</li>
+                <li><strong>Sherbrooke Art Society:</strong> Participates in monthly meetings, workshops, and exhibitions through this society.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact <a href="mailto:example@email.com">example@email.com</a></p>
+    </footer>
+</body>
+</html>
